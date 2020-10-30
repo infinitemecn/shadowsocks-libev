@@ -5,6 +5,7 @@
 FROM alpine
 LABEL maintainer="kev <noreply@datageek.info>, Sah <contact@leesah.name>"
 
+ENV MODE  server
 ENV SERVER_ADDR 0.0.0.0
 ENV SERVER_PORT 8388
 ENV PASSWORD=
@@ -48,7 +49,7 @@ RUN set -ex \
 
 USER nobody
 
-CMD exec ss-server \
+CMD exec ss-${MODE} \
       -s $SERVER_ADDR \
       -p $SERVER_PORT \
       -k ${PASSWORD:-$(hostname)} \
