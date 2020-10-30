@@ -49,12 +49,6 @@ RUN set -ex \
 
 USER nobody
 
-CMD exec ss-${MODE} \
-      -s $SERVER_ADDR \
-      -p $SERVER_PORT \
-      -k ${PASSWORD:-$(hostname)} \
-      -m $METHOD \
-      -t $TIMEOUT \
-      -d $DNS_ADDRS \
-      -u \
-      $ARGS
+COPY ./docker/alpine/entrypoint.sh /entrypoint.sh
+
+CMD /entrypoint.sh
