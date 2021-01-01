@@ -1,6 +1,6 @@
 # Alpine with China mirror
 FROM alpine
-MAINTAINER wener <wenermail@gmail.com>
+LABEL author="<wenermail@gmail.com>"
 
 # Better for cache and dev
 RUN apk add --no-cache --virtual .build-deps \

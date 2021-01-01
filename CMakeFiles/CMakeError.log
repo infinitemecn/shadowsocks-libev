@@ -1,0 +1,215 @@
+Determining if files ev.h exist failed with the following output:
+Change Dir: /root/shadowsocks-libev/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1202d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1202d.dir/build.make CMakeFiles/cmTC_1202d.dir/build
+make[1]: Entering directory '/root/shadowsocks-libev/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1202d.dir/HAVE_EV_H.c.o
+/usr/bin/cc   -std=gnu99  -fPIE   -o CMakeFiles/cmTC_1202d.dir/HAVE_EV_H.c.o   -c /root/shadowsocks-libev/CMakeFiles/CheckIncludeFiles/HAVE_EV_H.c
+/root/shadowsocks-libev/CMakeFiles/CheckIncludeFiles/HAVE_EV_H.c:2:10: fatal error: ev.h: No such file or directory
+ #include <ev.h>
+          ^~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_1202d.dir/build.make:66: CMakeFiles/cmTC_1202d.dir/HAVE_EV_H.c.o] Error 1
+make[1]: Leaving directory '/root/shadowsocks-libev/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1202d/fast] Error 2
+
+Source:
+/* */
+#include <ev.h>
+
+
+int main(void){return 0;}
+
+Determining if the function socket exists in the socket failed with the following output:
+Change Dir: /root/shadowsocks-libev/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_716d9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_716d9.dir/build.make CMakeFiles/cmTC_716d9.dir/build
+make[1]: Entering directory '/root/shadowsocks-libev/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_716d9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -DCHECK_FUNCTION_EXISTS=socket -fPIE   -o CMakeFiles/cmTC_716d9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_716d9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_716d9.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -DCHECK_FUNCTION_EXISTS=socket    -rdynamic CMakeFiles/cmTC_716d9.dir/CheckFunctionExists.c.o  -o cmTC_716d9 -lsocket 
+/usr/bin/ld: cannot find -lsocket
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_716d9.dir/build.make:87: cmTC_716d9] Error 1
+make[1]: Leaving directory '/root/shadowsocks-libev/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_716d9/fast] Error 2
+
+
+Determining if files pcre.h exist failed with the following output:
+Change Dir: /root/shadowsocks-libev/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7973a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7973a.dir/build.make CMakeFiles/cmTC_7973a.dir/build
+make[1]: Entering directory '/root/shadowsocks-libev/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7973a.dir/HAVE_PCRE_H.c.o
+/usr/bin/cc   -std=gnu99  -fPIE   -o CMakeFiles/cmTC_7973a.dir/HAVE_PCRE_H.c.o   -c /root/shadowsocks-libev/CMakeFiles/CheckIncludeFiles/HAVE_PCRE_H.c
+/root/shadowsocks-libev/CMakeFiles/CheckIncludeFiles/HAVE_PCRE_H.c:2:10: fatal error: pcre.h: No such file or directory
+ #include <pcre.h>
+          ^~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_7973a.dir/build.make:66: CMakeFiles/cmTC_7973a.dir/HAVE_PCRE_H.c.o] Error 1
+make[1]: Leaving directory '/root/shadowsocks-libev/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_7973a/fast] Error 2
+
+Source:
+/* */
+#include <pcre.h>
+
+
+int main(void){return 0;}
+
+Determining if files pcre/pcre.h exist failed with the following output:
+Change Dir: /root/shadowsocks-libev/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2700/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e2700.dir/build.make CMakeFiles/cmTC_e2700.dir/build
+make[1]: Entering directory '/root/shadowsocks-libev/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2700.dir/HAVE_PCRE_PCRE_H.c.o
+/usr/bin/cc   -std=gnu99  -fPIE   -o CMakeFiles/cmTC_e2700.dir/HAVE_PCRE_PCRE_H.c.o   -c /root/shadowsocks-libev/CMakeFiles/CheckIncludeFiles/HAVE_PCRE_PCRE_H.c
+/root/shadowsocks-libev/CMakeFiles/CheckIncludeFiles/HAVE_PCRE_PCRE_H.c:2:10: fatal error: pcre/pcre.h: No such file or directory
+ #include <pcre/pcre.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_e2700.dir/build.make:66: CMakeFiles/cmTC_e2700.dir/HAVE_PCRE_PCRE_H.c.o] Error 1
+make[1]: Leaving directory '/root/shadowsocks-libev/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e2700/fast] Error 2
+
+Source:
+/* */
+#include <pcre/pcre.h>
+
+
+int main(void){return 0;}
+
+Determining if the PTHREAD_PRIO_INHERIT exist failed with the following output:
+Change Dir: /root/shadowsocks-libev/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5cfa5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5cfa5.dir/build.make CMakeFiles/cmTC_5cfa5.dir/build
+make[1]: Entering directory '/root/shadowsocks-libev/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5cfa5.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99  -fPIE   -o CMakeFiles/cmTC_5cfa5.dir/CheckSymbolExists.c.o   -c /root/shadowsocks-libev/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/root/shadowsocks-libev/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/root/shadowsocks-libev/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:18: error: lvalue required as unary ‘&’ operand
+   return ((int*)(&PTHREAD_PRIO_INHERIT))[argc];
+                  ^
+make[1]: *** [CMakeFiles/cmTC_5cfa5.dir/build.make:66: CMakeFiles/cmTC_5cfa5.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/root/shadowsocks-libev/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_5cfa5/fast] Error 2
+
+File /root/shadowsocks-libev/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef PTHREAD_PRIO_INHERIT
+  return ((int*)(&PTHREAD_PRIO_INHERIT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files ares.h exist failed with the following output:
+Change Dir: /root/shadowsocks-libev/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_de789/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de789.dir/build.make CMakeFiles/cmTC_de789.dir/build
+make[1]: Entering directory '/root/shadowsocks-libev/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_de789.dir/HAVE_ARES_H.c.o
+/usr/bin/cc   -std=gnu99  -fPIE   -o CMakeFiles/cmTC_de789.dir/HAVE_ARES_H.c.o   -c /root/shadowsocks-libev/CMakeFiles/CheckIncludeFiles/HAVE_ARES_H.c
+/root/shadowsocks-libev/CMakeFiles/CheckIncludeFiles/HAVE_ARES_H.c:2:10: fatal error: ares.h: No such file or directory
+ #include <ares.h>
+          ^~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_de789.dir/build.make:66: CMakeFiles/cmTC_de789.dir/HAVE_ARES_H.c.o] Error 1
+make[1]: Leaving directory '/root/shadowsocks-libev/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_de789/fast] Error 2
+
+Source:
+/* */
+#include <ares.h>
+
+
+int main(void){return 0;}
+
+Determining if files vfork.h exist failed with the following output:
+Change Dir: /root/shadowsocks-libev/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7cf55/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7cf55.dir/build.make CMakeFiles/cmTC_7cf55.dir/build
+make[1]: Entering directory '/root/shadowsocks-libev/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7cf55.dir/HAVE_VFORK_H.c.o
+/usr/bin/cc   -std=gnu99  -fPIE   -o CMakeFiles/cmTC_7cf55.dir/HAVE_VFORK_H.c.o   -c /root/shadowsocks-libev/CMakeFiles/CheckIncludeFiles/HAVE_VFORK_H.c
+/root/shadowsocks-libev/CMakeFiles/CheckIncludeFiles/HAVE_VFORK_H.c:2:10: fatal error: vfork.h: No such file or directory
+ #include <vfork.h>
+          ^~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_7cf55.dir/build.make:66: CMakeFiles/cmTC_7cf55.dir/HAVE_VFORK_H.c.o] Error 1
+make[1]: Leaving directory '/root/shadowsocks-libev/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_7cf55/fast] Error 2
+
+Source:
+/* */
+#include <vfork.h>
+
+
+int main(void){return 0;}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/shadowsocks-libev/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a0de/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2a0de.dir/build.make CMakeFiles/cmTC_2a0de.dir/build
+make[1]: Entering directory '/root/shadowsocks-libev/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a0de.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99  -fPIE   -o CMakeFiles/cmTC_2a0de.dir/CheckSymbolExists.c.o   -c /root/shadowsocks-libev/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2a0de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a0de.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99     -rdynamic CMakeFiles/cmTC_2a0de.dir/CheckSymbolExists.c.o  -o cmTC_2a0de 
+/usr/bin/ld: CMakeFiles/cmTC_2a0de.dir/CheckSymbolExists.c.o: in function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_2a0de.dir/build.make:87: cmTC_2a0de] Error 1
+make[1]: Leaving directory '/root/shadowsocks-libev/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_2a0de/fast] Error 2
+
+File /root/shadowsocks-libev/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/shadowsocks-libev/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49019/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49019.dir/build.make CMakeFiles/cmTC_49019.dir/build
+make[1]: Entering directory '/root/shadowsocks-libev/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49019.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_49019.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_49019
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49019.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu99 -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_49019.dir/CheckFunctionExists.c.o  -o cmTC_49019 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_49019.dir/build.make:87: cmTC_49019] Error 1
+make[1]: Leaving directory '/root/shadowsocks-libev/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_49019/fast] Error 2
+
+
